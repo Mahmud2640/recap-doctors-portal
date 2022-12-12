@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {},
   },
@@ -15,9 +15,9 @@ module.exports = {
           "base-100": "#ffffff",
         },
       },
-      "dark",
+      // "dark",
       "cupcake",
     ],
   },
   plugins: [require("daisyui")],
-}
+};
