@@ -10,5 +10,9 @@ root.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 07d8fe3d5ebf03ab777b469400e0c0ded998e115
   </React.StrictMode>
 );
